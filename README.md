@@ -11,3 +11,17 @@ Dockerized [socat](http://www.dest-unreach.org/socat/).
 | Tag | Dockerfile Build Context |
 |:-------:|:---------:|
 | `:3.12`, `:latest` | [View](variants/3.12 ) |
+
+## Development
+
+Requires Windows `powershell` or [`pwsh`](https://github.com/PowerShell/PowerShell).
+
+```powershell
+# Install Generate-DockerImageVariants module: https://github.com/theohbrothers/Generate-DockerImageVariants
+Install-Module -Name Generate-DockerImageVariants -Repository PSGallery -Scope CurrentUser -Force -Verbose
+
+# Edit ./generate templates
+
+# Generate the variants
+Generate-DockerImageVariants .
+```
