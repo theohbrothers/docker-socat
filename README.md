@@ -10,7 +10,7 @@ Dockerized [socat](http://www.dest-unreach.org/socat/).
 
 | Tag | Dockerfile Build Context |
 |:-------:|:---------:|
-| `:3.12`, `:latest` | [View](variants/3.12 ) |
+| `:3.12`, `:latest` | [View](variants/3.12) |
 
 ## Development
 
