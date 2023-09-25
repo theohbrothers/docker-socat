@@ -12,7 +12,7 @@ $VARIANTS = @(
                 job_group_key = $v
             }
             # Docker image tag. E.g. '3.12'
-            tag = '3.12'
+            tag = $v
             tag_as_latest = $true
         }
     }
